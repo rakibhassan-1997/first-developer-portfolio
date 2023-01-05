@@ -33,6 +33,7 @@
     background-image: url("../images/header_bg.png"), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    background-size: auto, 100px 500px;
 
 
 }
@@ -219,4 +220,56 @@ padding: 30px;
         border-radius: 5px;
         font-weight: 700;
         font-size: 20px;
+        margin-bottom: 120px;
+}
+/* .contact */
+
+.footer-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #FFF8F3;;
+    gap: 50px;
+}
+.contract{
+    margin: 130px 230px;
+}
+.form{
+    display: block;
+    margin-bottom: 24px;
+    border: 0;
+    width: 461px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 5px;
+}
+.lets-msg{
+    margin: 130px 230px;
+}
+.submit{
+    color: #FFFFFF;
+        height: 64px;
+        padding: 18px 35px;
+        border: none;
+        background-color: #FD6E0A;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 20px;
+}
+.footer-des{
+    margin-bottom: 30px;
+}
+.text{
+    display: block;
+    margin-bottom: 24px;
+    border: 0;
+    height: 180px;
+
+background: #FFFFFF;
+border-radius: 5px;
+
 }

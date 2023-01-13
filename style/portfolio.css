@@ -41,7 +41,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-  margin: 50px 200px;
+    padding: 50px 200px;
     
 }
 .nav title{
@@ -273,3 +273,77 @@ background: #FFFFFF;
 border-radius: 5px;
 
 }
+@media screen and (max-width: 576px) {
+    .skills-container {
+      flex-direction: column;
+      padding: 10px 10px;
+    }
+    .resume-content {
+      flex-direction: column;
+      padding: 10px 10px;
+    }
+    .contact {
+      flex-direction: column-reverse;
+      padding: 10px 20px;
+    }
+    .about-info-container {
+      flex-direction: column;
+    }
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 0 0;
+    }
+    .about {
+      padding: 10px;
+    }
+    .banner {
+      flex-direction: column;
+    }
+    nav {
+      padding: 0 0px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .body {
+      margin: 0 auto;
+    }
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-right: 10px;
+    }
+    .banner {
+      margin: 0 20px;
+    }
+    .banner img {
+      width: 100%;
+    }
+  
+    .skills-container {
+      flex-direction: column;
+      padding: 10px 10px;
+    }
+    .skills-container {
+      margin: 0 10px;
+    }
+    .header{
+      background-position: bottom right,top right ;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 577px) and (maxo-992px) {
+    .contact {
+      flex-direction: column;
+      padding: 10px 20px;
+    }
+    .header {
+      background: #fff8f3;
+      background-image: url("../images/header_bg.png"),
+        url("../images/developer.png");
+      background-repeat: no-repeat;
+      background-position: bottom right, right ;
+      width: 100%;
+    }
+  }
